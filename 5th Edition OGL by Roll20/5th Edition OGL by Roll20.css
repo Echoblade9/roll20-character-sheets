@@ -1917,10 +1917,11 @@ span.sheet-spellconcentration
 .sheet-rolltemplate-atk .sheet-solo,
 .sheet-rolltemplate-atkdmg .sheet-solo,
 .sheet-rolltemplate-dmg .sheet-solo {
-    height: 1.7em;
-    padding-top: 1.1em;
-    text-align: center;
-    width: 100%;
+    height        : auto;
+    padding-bottom: 0.5em;
+    padding-top   : 1em;
+    text-align    : center;
+    width         : 100%;
 }
 
 .sheet-rolltemplate-simple span,
