@@ -1787,11 +1787,11 @@ span.sheet-spellconcentration
     display: none;
 }
 
-div.sheet-rolltemplate-dmg,
-div.sheet-rolltemplate-atk,
-div.sheet-rolltemplate-simple,
-div.sheet-rolltemplate-atkdmg {
-    width: 17em;
+.sheet-rolltemplate-dmg,
+.sheet-rolltemplate-atk,
+.sheet-rolltemplate-simple,
+.sheet-rolltemplate-atkdmg {
+    width: 14em;
 }
 
 .sheet-rolltemplate-simple .sheet-container,
@@ -1803,7 +1803,7 @@ div.sheet-rolltemplate-atkdmg {
     background-color: white;
     border          : 1px solid black;
     color           : black;
-    width           : 17em;
+    width           : 100%;
 }
 
 .sheet-rolltemplate-simple .sheet-container {
@@ -1868,7 +1868,7 @@ div.sheet-rolltemplate-atkdmg {
     margin-top    : 1em;
     text-align    : center;
     vertical-align: top;
-    width         : 46%;
+    width         : 45%;
 }
 
 .sheet-rolltemplate-simple .sheet-adv:first-child,
@@ -2067,7 +2067,6 @@ div.sheet-rolltemplate-atkdmg {
     padding-bottom: 5px;
     padding-top   : 15px;
     text-align    : center;
-    width: 17em;
 }
 
 .sheet-rolltemplate-atk .sheet-save .sheet-savedc span,
